@@ -1,6 +1,36 @@
-# hound-rubocop
+# Hound Rubocop
 
-Description goes here.
+
+## Installation
+
+Add `hound-rubocop` to your `Gemfile`.
+
+```ruby
+# Gemfile
+gem "hound-rubocop"
+```
+
+## Usage
+
+Generate the Rubocop and Hound configuration.
+
+```shell
+$ rails g hound:config
+```
+
+That's it! No more configuration needed.
+
+Rubocop will use the generated `.rubocop.yml` by default and report the same offenses as Hound will.
+
+```shell
+$ rubocop
+```
+
+
+## Using with `guard-rubocop`
+
+No configuration needed.
+
 
 ## Contributing to hound-rubocop
 
