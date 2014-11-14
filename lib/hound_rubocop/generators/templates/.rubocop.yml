@@ -1,0 +1,5 @@
+inherit_from:
+  - '.rubocop.hound.yml'
+
+AllCops:
+  RunRailsCops: true # Hound runs Rails cops by default
