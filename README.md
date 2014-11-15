@@ -23,7 +23,7 @@ That's it! No more configuration needed.
 Rubocop will use the generated `.rubocop.yml` by default and report the same offenses as Hound will.
 
 ```shell
-$ rubocop
+$ bundle exec rubocop
 ```
 
 
