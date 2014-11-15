@@ -2,7 +2,7 @@ module Hound
   class ConfigGenerator < ::Rails::Generators::Base
     desc "Generates configuration matching Hound for Rubocop"
 
-    source_root File.expand_path('../templates', __FILE__)
+    source_root File.expand_path("../templates", __FILE__)
 
     def copy_rubocop_config
       hound_defaults = HoundRubocop::DEFAULT_CONFIG_FILE
